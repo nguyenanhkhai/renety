@@ -26,7 +26,9 @@ const CartPage: React.VFC<CartPageProps> = (props) => {
           <Paper className="cart w-4/5 p-4">
             {[1, 2, 3, 4, 5, 6].map((value) => {
               return (
-                <div className="cart__item w-full flex gap-4 border-b-2 border-solid border-steel">
+                <div
+                  key={value}
+                  className="cart__item w-full flex gap-4 border-b-2 border-solid border-steel">
                   <div className="cart__item__media w-1/5 ">
                     <img
                       src="https://m.media-amazon.com/images/I/81L8fk7SGQL._AC_AA360_.jpg"
