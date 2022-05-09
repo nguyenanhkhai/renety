@@ -22,12 +22,13 @@ module.exports = {
       white: "#ffffff",
       steel: "#7c8491",
       "cutty-sark": "#527A7F",
+      primary: "#007bff",
+      viking: "#62b0df",
     },
     fontFamily: {
       librecaslon: ["Libre Caslon Text", "serif"],
       roboto: ["Roboto", "serif"],
     },
-    
   },
   plugins: [],
 };

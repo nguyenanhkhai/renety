@@ -1,10 +1,10 @@
-type MenuProps = {
+type MenuListProps = {
   className?: string;
   children: React.ReactNode;
 };
 
-const Menu: React.FC<MenuProps> = ({ children, className }) => {
+const MenuList: React.FC<MenuListProps> = ({ children, className }) => {
   return <div className={"menu " + className}>{children}</div>;
 };
 
-export default Menu;
+export default MenuList;

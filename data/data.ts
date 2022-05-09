@@ -27,31 +27,11 @@ export const PAGES = [
 ];
 
 export const CART_SAMPLE = [
-  {
-    item: "OPPO Reno7 Pro 5G",
-    price: 18990000,
-    quantity: 1,
-  },
-  {
-    item: "Samsung Galaxy A33 5G 6GB",
-    price: 8490000,
-    quantity: 8,
-  },
-  {
-    item: "Iphone 13 Pro Max 128GB",
-    price: 32890000,
-    quantity: 3,
-  },
-  {
-    item: "OPPO Reno6 Z 5G",
-    price: 9490000,
-    quantity: 5,
-  },
-  {
-    item: "Vivo Y33s",
-    price: 6990000,
-    quantity: 32,
-  },
+  { id: 1, item: "OPPO Reno7 Pro 5G", price: 18990000, quantity: 1 },
+  { id: 2, item: "Samsung Galaxy A33 5G 6GB", price: 8490000, quantity: 8 },
+  { id: 3, item: "Iphone 13 Pro Max 128GB", price: 32890000, quantity: 3 },
+  { id: 4, item: "OPPO Reno6 Z 5G", price: 9490000, quantity: 5 },
+  { id: 5, item: "Vivo Y33s", price: 6990000, quantity: 32 },
 ];
 
 export const SUPPORT_CLIENT_DATA = [
