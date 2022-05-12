@@ -21,7 +21,7 @@ export const PAGES = [
   },
   {
     id: 5,
-    path: "/signin/",
+    path: "/flow/signin/",
     item: "Đăng nhập",
   },
 ];
@@ -56,3 +56,7 @@ export const SUPPORT_CLIENT_DATA = [
     path: "/support/dich-vu-sua-chua-bao-tri",
   },
 ];
+
+export const LOGIN_FORM = [];
+
+export const REGISTER_FORM = [];

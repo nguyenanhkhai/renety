@@ -1,20 +1,19 @@
 import AppContainer from "components/AppContainer/AppContainer";
 import AppHeader from "components/AppHeader/AppHeader";
 import Footer from "components/Footer/Footer";
-import Showcase from "components/Showcase/Showcase";
+import React from "react";
 
 type ShopLayoutProps = {
   className?: string;
+  children: React.ReactNode;
 };
 
-const ShopLayout: React.VFC<ShopLayoutProps> = (props) => {
+const ShopLayout: React.FC<ShopLayoutProps> = ({ children }) => {
   return (
     <>
       <AppHeader />
-      <main>
-        <AppContainer>
-          <Showcase className="mt-[100px]" title="MEN'S WATCHES" />
-        </AppContainer>
+      <main className="mt-[100px]">
+        <AppContainer>{children}</AppContainer>
       </main>
       <Footer />
     </>

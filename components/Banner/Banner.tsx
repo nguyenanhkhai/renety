@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type BannerProps = {
   className?: string;
 };
@@ -5,9 +7,9 @@ type BannerProps = {
 const Banner: React.FC<BannerProps> = ({ className }) => {
   return (
     <div className={"banner__wrapper mt-[70px] relative " + className}>
-      <div className="banner__media w-full sm:h-[250px] md:h-[650px] lg:h-[650px]">
+      <div className="banner__media w-full sm:h-[250px] md:h-[500px] lg:h-[500px]">
         <img
-          src="https://images.unsplash.com/photo-1504457047772-27faf1c00561?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmlldG5hbXxlbnwwfHwwfHw%3D&w=1000&q=80"
+          src="https://d1rkccsb0jf1bk.cloudfront.net/assets/2022/new-in/Seiko_Desktop.webp"
           alt=""
         />
       </div>

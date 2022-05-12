@@ -5,7 +5,7 @@ type PaperProps = {
 
 const Paper: React.FC<PaperProps> = ({ children, className }) => {
   return (
-    <div className={"paper shadow-md bg-white rounded-md " + className}>
+    <div className={"paper w-full shadow-md bg-white rounded-md " + className}>
       {children}
     </div>
   );

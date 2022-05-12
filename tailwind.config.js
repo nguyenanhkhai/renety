@@ -23,7 +23,9 @@ module.exports = {
       steel: "#7c8491",
       "cutty-sark": "#527A7F",
       primary: "#007bff",
+      info: "#42b72a",
       viking: "#62b0df",
+      mercury: "#e9e9e9",
     },
     fontFamily: {
       librecaslon: ["Libre Caslon Text", "serif"],

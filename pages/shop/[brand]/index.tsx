@@ -1,3 +1,4 @@
+import ShopContainer from "containers/ShopContainer/ShopContainer";
 import ShopLayout from "layouts/ShopLayout/ShopLayout";
 import { NextPage } from "next";
 
@@ -6,7 +7,11 @@ type ShopPageProps = {
 };
 
 const ShopPage: NextPage = (props) => {
-  return <ShopLayout />;
+  return (
+    <ShopLayout>
+      <ShopContainer />
+    </ShopLayout>
+  );
 };
 
 export default ShopPage;
