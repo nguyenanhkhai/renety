@@ -2,7 +2,7 @@ export const ABOUT = [
   {
     brand: "deniel-wellington",
     image:
-      "//d1rkccsb0jf1bk.cloudfront.net/landingpages/daniel-wellington/xDW_Brand_Room_AW21_Hero_Desktop.jpg.pagespeed.ic.hznF1b3fhY.webp",
+      "https://d1rkccsb0jf1bk.cloudfront.net/landingpages/daniel-wellington/xDW_Brand_Room_AW21_Hero_Desktop.jpg.pagespeed.ic.hznF1b3fhY.webp",
     content: `Daniel Wellington watches were originally inspired by a chance meeting
     between founder Filip Tysander and the British gentleman Daniel
     Wellington. Tysander was struck by Wellington's impeccable sense of
