@@ -4,13 +4,18 @@ import Paper from "components/Paper/Paper";
 import { settingReactSlick } from "configs/reactSlickConfigs";
 
 import Slider from "react-slick";
+import { WatchProps } from "types/common";
 
 type CarouselProps = {
   className?: string;
   title?: string;
+  data?: WatchProps[];
 };
 
-const Carousel: React.VFC<CarouselProps> = ({ title = "Carousel" }) => {
+const Carousel: React.VFC<CarouselProps> = ({
+  title = "Carousel",
+  data = [],
+}) => {
   return (
     <Paper className="rounded-md mt-10 ">
       <div className="carousel">
@@ -19,9 +24,13 @@ const Carousel: React.VFC<CarouselProps> = ({ title = "Carousel" }) => {
         </div>
         <div className="carousel-list  ">
           <Slider {...settingReactSlick}>
-            {[1, 2, 3, 4, 5, 6, 7].map((value) => {
-              return <Card key={value} className="mr-4" />;
-            })}
+            {data
+              ? data.map((watch) => {
+                  return (
+                    <Card key={watch.barcode} className="mr-4" {...watch} />
+                  );
+                })
+              : "Không thể render."}
           </Slider>
         </div>
       </div>

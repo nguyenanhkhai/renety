@@ -11,8 +11,8 @@ const HomeContainer: React.VFC<HomeContainerProps> = (props) => {
   return (
     <>
       <AppContainer>
-        <Carousel title="Sản phẩm nổi bật" />
-        <Showcase title="Sản phẩm dành cho bạn" data={DW_MENS} />
+        <Carousel title="Sản phẩm nổi bật" data={DW_MENS.slice(0, 13)} />
+        <Showcase title="Sản phẩm dành cho bạn" data={DW_MENS.slice(5, 20)} />
       </AppContainer>
     </>
   );
