@@ -7,7 +7,7 @@ export const NAVIGATIONS: Feature[] = [
   },
   {
     id: Math.random() * 100 + 168,
-    path: "/shop/denial-wellington",
+    path: "/shop/deniel-wellington",
     title: "Deniel Wellington",
   },
   {
@@ -17,8 +17,8 @@ export const NAVIGATIONS: Feature[] = [
   },
   {
     id: Math.random() * 100 + 168,
-    path: "/shop/Casio",
-    title: "Casio",
+    path: "/shop/storm",
+    title: "Storm",
   },
   {
     id: Math.random() * 100 + 168,

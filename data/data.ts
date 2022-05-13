@@ -1,30 +1,4 @@
-export const PAGES = [
-  {
-    id: 1,
-    path: "/",
-    item: "Trang chủ",
-  },
-  {
-    id: 2,
-    path: "/watches/",
-    item: "Đồng hồ nam",
-  },
-  {
-    id: 3,
-    path: "/watches/",
-    item: "Đồng hồ nữ",
-  },
-  {
-    id: 4,
-    path: "/vongtay/",
-    item: "Vòng tay",
-  },
-  {
-    id: 5,
-    path: "/flow/signin/",
-    item: "Đăng nhập",
-  },
-];
+
 
 export const CART_SAMPLE = [
   { id: 1, item: "OPPO Reno7 Pro 5G", price: 18990000, quantity: 1 },

@@ -1,7 +1,8 @@
 import Paper from "components/Paper/Paper";
 import Showcase from "components/Showcase/Showcase";
 import { ABOUT } from "data/about";
-import { DW_MENS } from "data/dw_men";
+import { WatchProduct } from "data/watches";
+
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { WatchProps } from "types/common";
@@ -25,6 +26,10 @@ const ShopContainer: React.FC<ShopContainerProps> = (props) => {
     }
   }
 
+  function handleShowcaseTitle(brand_: string): string {
+    return brand_.replace("-", " ").toUpperCase();
+  }
+
   return (
     <>
       <Paper className="p-6">
@@ -45,12 +50,15 @@ const ShopContainer: React.FC<ShopContainerProps> = (props) => {
         <Paper className="text-center p-6 hover:bg-steel hover:text-white">
           <Link href="/">
             <a>
-              <h1>FOR HIM</h1>
+              <h1>FOR HER</h1>
             </a>
           </Link>
         </Paper>
       </div>
-      <Showcase title={brand} data={DW_MENS} />
+      <Showcase
+        title={handleShowcaseTitle(brand)}
+        data={WatchProduct.slice(0, 10)}
+      />
     </>
   );
 };

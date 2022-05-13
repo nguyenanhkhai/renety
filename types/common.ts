@@ -17,6 +17,7 @@ export type WatchProps = {
   glass?: string;
   guarantee?: number;
   images?: Array<string>;
+  movement_source: string;
   model_collection?: string;
   model_name?: string;
   movement?: string;

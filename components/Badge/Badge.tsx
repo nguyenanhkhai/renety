@@ -10,7 +10,7 @@ const Badge: React.FC<BadgeProps> = ({ badgeContent, children }) => {
     <div className="badge relative text-[13px]">
       {children}
       {badgeContent > 0 && (
-        <span className="badge__content absolute z-10 text-[10px] top-[-10px] right-[-10px] border bg-red rounded-[50%] px-2 py-1 text-white">
+        <span className="badge__content absolute z-10 text-[10px] top-[-10px] right-[-10px] border bg-red rounded-[50%] px-2 py-0 text-white">
           {badgeContent}
         </span>
       )}

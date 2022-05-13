@@ -15,8 +15,8 @@ const Showcase: React.FC<ShowcaseProps> = ({
 }) => {
   return (
     <div className={"showcase mt-10 " + className}>
-      <div className="showcase__title text-center font-librecaslon py-5">
-        <h3>{title && title}</h3>
+      <div className="showcase__title text-center text-steel py-5">
+        <h2>{title && (title as string)}</h2>
       </div>
       <div className="showcase__content grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 p-4">
         {data.length > 0

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
-@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/gotham');
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -7,7 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: 'Gotham', sans-serif !important;
     background-color: white;
 }
 

@@ -1,7 +1,6 @@
 import { NAVIGATIONS } from "common/navigations";
 import Badge from "components/Badge/Badge";
 import Input from "components/Input/Input";
-import { PAGES } from "data/data";
 import Link from "next/link";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdOutlineSearch } from "react-icons/md";

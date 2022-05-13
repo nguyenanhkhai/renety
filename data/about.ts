@@ -27,4 +27,10 @@ export const ABOUT = [
           Fossil designers use a wide variety of materials and styles throughout the watch collection, from multi-faceted, colourful metals in gold, silver & rose gold to deconstructed leathers in black, brown tan & blue. Make a statement with technology-laden cases and mechanical watches that beautifully showcase the art of watchmaking, or enjoy a timeless look with minimalistic aesthetics - Fossil provides the discerning watch-buyer with multiple choices. To stay connected, Fossil's range of Fossil Q smartwatches feature fitness tracking, music control and smartphone notifications without compromising style.
           Fossil watches are more than just a practical accessory they are a lifestyle choice that lets the world know who you are at a glance. Browse Fossil's range of men's and women's watches, or experience the same level of quality with different styles - Fossil also makes watches for a variety of other brands including including Diesel, Armani, Adidas and Marc Jacobs.`,
   },
+  {
+    brand: "storm",
+    image:
+      "https://d1rkccsb0jf1bk.cloudfront.net/landingpages/storm/STROM_Jan_21_Brand_Room_Hero_Desktop.jpg",
+    content: `STORM is a true British fashion watch brand and all the new models are still designed in the London Headquarters. Launched in 1989 STORM continues to pioneer the fashion industry and push boundaries through their innovative approach to producing unique fashion watches and jewellery. With highly original designs almost architectural in form, STORM pieces have true standout ability. `,
+  },
 ];
